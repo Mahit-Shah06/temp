@@ -1,0 +1,14 @@
+fastapi
+uvicorn[standard]
+sqlalchemy
+pydantic
+bcrypt
+python-jose[cryptography]
+PyPDF2
+python-docx
+spacy
+scikit-learn
+sentence-transformers
+faiss-cpu
+torch
+python-multipart
