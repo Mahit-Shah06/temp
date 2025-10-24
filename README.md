@@ -187,32 +187,6 @@ Author: Legal Department
 This agreement contains terms and conditions, effective dates, and compliance requirements.
 All parties must sign this legal document.
 ```
-
-## 🏆 Hackathon Scoring
-
-Your solution covers all requirements:
-
-1. **Document Classification** (20 pts): ✅ Keyword-based classification
-2. **Metadata & Summaries** (20 pts): ✅ spaCy + TF-IDF
-3. **Semantic Search** (25 pts): ✅ FAISS + SentenceTransformers
-4. **Security** (20 pts): ✅ Encryption + JWT + RBAC
-5. **User Interface** (15 pts): ✅ Modern React frontend
-
-**Total: 100/100 points**
-
-## 🎨 Optional Enhancements
-
-If you have extra time:
-
-1. **Better Classification**: Use a pre-trained model instead of keywords
-2. **Advanced Search**: Add filters, date ranges, fuzzy matching
-3. **File Previews**: PDF/DOCX preview in browser
-4. **Batch Operations**: Upload multiple files
-5. **Analytics Dashboard**: Usage statistics
-6. **API Documentation**: Swagger/OpenAPI integration
-
-## 🐛 Common Issues & Solutions
-
 ### Backend Issues:
 - **CORS Error**: Make sure CORS middleware is properly configured
 - **File Upload Error**: Check file permissions in `uploaded_docs/` directory
@@ -230,5 +204,6 @@ If you have extra time:
 - **Encryption**: Documents encrypted per-user (secure but slower)
 - **Search Speed**: Very fast with FAISS (sub-second for 1000+ docs)
 - **Database**: SQLite suitable for hackathon, consider PostgreSQL for production
+
 
 Your implementation is hackathon-ready and demonstrates excellent understanding of the requirements! 🚀
